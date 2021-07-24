@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 180px;
+    text-align: center;
+}
+.header--title-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 155px;
+    justify-content: center;
+}
+.header--title-container h1 {
+    position: absolute;
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    font-family: serif;
+    color: #FAFAFA;
+    border: #0077b6 2px double;
+}
+.openMenu, .closeMenu {
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 305px;
+    bottom: 185px;
+    margin: 0;
+}
+.closeMenu {
+    display: none;
+}
+nav {
+    width: 60px;
+    height: 80px;
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+    bottom: 109px;
+    background: #024959;
+}
+header li {
+    list-style: none;
+}
+ header ul li a {
+    right: -5px;
+    bottom: 2px;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.menu {
+    display: none;
+}
+.header--container-iconos {
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    bottom: 170px;
+    background-color: #dddddd;
+}
+.header--container-iconos ul {
+    width: 70px;
+    height: 25px;
+    margin-top: 2.5px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header--container-iconos li {
+    width: 25px;
+    height: 20px;
+    margin-top: 2.5px;
+    display: inline-block;
+}
+.lupa {
+    background-image: url("./header_iconos/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.avatar {
+    background-image: url("./header_iconos/avatar.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.shopping {
+    background-image: url("./header_iconos/shoppin.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+main {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    background-color: darkcyan;
+}
+.main--container-pagos {
+    width: 100%;
+    height: 30px;
+    position: relative;
+    display: flex;
+    background-color: darkgray;
+}
+.main--container-buttons  {
+    width: 70%;
+    height: 20px;
+    top: 5px;
+    left: 50px;
+    position: relative;
+    display: inline;
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+.main--container-buttons ul {
+    width: 225px;
+    height: 15px;
+    top: 2.5px;
+    position: absolute;
+    display: inline;
+    list-style: none;
+}
+.main--container-buttons li {
+    padding: 0;
+    display: inline;
+}
+.main--container-buttons a {
+    height: 15px;
+    bottom: 5px;
+    font-size: .9rem;
+    text-decoration: none;
+    margin-left: 18px;
+}
+footer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: darkgoldenrod;
+}
+.footer--container-redes {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    background-color: #dddddd;
+}
+.footer--container-redes ul {
+    width: 100%;
+    height: 25px;
+    margin-top: 2.5px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer--container-redes li {
+    width: 25px;
+    height: 20px;
+    margin-top: 2.5px;
+    display: inline-block;
+}
+.footer--container-redes .face {
+    background-image: url("./footer_redes/Facebook.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.footer--container-redes .instagram {
+    background-image: url("./footer_redes/instagram.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.footer--container-redes .tiktok {
+    background-image: url("./footer_redes/tiktok.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.footer--container-redes .twitter {
+    background-image: url("./footer_redes/twitter.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.footer--container-redes .youtube {
+    background-image: url("./footer_redes/youtube1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.footer--container-terminos {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    top: 49px;
+    background-color: #dddddd;
+}
+.footer--container-terminos ul {
+    width: 100%;
+    height: 25px;
+    margin-top: 2.5px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.footer--container-terminos li a{
+    text-decoration: none;
+    list-style: none;
+}
